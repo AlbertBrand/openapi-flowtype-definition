@@ -1,0 +1,10 @@
+{
+  "name": "openapi-flowtype-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "openapi-flowtype-definition": "file:..",
+    "flow-bin": "^0.34.0"
+  }
+}

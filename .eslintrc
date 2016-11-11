@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "flowtype/delimiter-dangle": [2, 'always-multiline'],
+    "flowtype/no-dupe-keys": 2,
+    "flowtype/no-weak-types": 2,
+    "flowtype/object-type-delimiter": 2,
+    "flowtype/require-valid-file-annotation": [2, 'always', {
+      "annotationStyle": "line"
+    }],
+    "flowtype/semi": [2, 'always'],
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": false
+    }
+  }
+}

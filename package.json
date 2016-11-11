@@ -1,0 +1,23 @@
+{
+  "name": "openapi-flowtype-definition",
+  "version": "1.0.0",
+  "description": "OpenAPI 2.0 Flowtype definition",
+  "main": "index.js",
+  "author": "Albert Brand <albert.brand@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "flow-bin": "^0.34.0",
+    "pre-push": "^0.1.1"
+  },
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "lint": "eslint ."
+  },
+  "pre-push": [
+    "flow",
+    "lint"
+  ]
+}
