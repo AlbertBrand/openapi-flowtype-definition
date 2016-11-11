@@ -1,6 +1,6 @@
 {
   "name": "openapi-flowtype-definition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenAPI 2.0 Flowtype definition",
   "main": "index.js",
   "author": "Albert Brand <albert.brand@gmail.com>",
